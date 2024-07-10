@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Change to a lighter background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #ffffff; /* Change to white background */
+    padding: 30px;
+    border-radius: 10px; /* Increase border radius for a smoother appearance */
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); /* Increase box shadow */
+    color: #333333; /* Darken text color */
+    max-width: 400px; /* Limit form width */
+}
+
+h2 {
+    text-align: center;
+    color: #333333; /* Darken heading color */
+    margin-bottom: 20px; /* Add margin bottom to headings */
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px; /* Decrease margin bottom for labels */
+}
+
+input[type="text"], input[type="file"] {
+    width: calc(100% - 20px); /* Adjust width to accommodate padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc; /* Lighten border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #6e0d7b; /* Change to a purple color */
+    color: #ffffff;
+    padding: 12px 24px; /* Increase padding for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Make button full width */
+}
+
+button:hover {
+    background-color: #520a5b; /* Darken hover color */
+}
+
+img {
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 20px; /* Add margin bottom to image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

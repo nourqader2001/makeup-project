@@ -1,0 +1,52 @@
+.card-img{
+  height: 400px;
+}
+.card {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(180, 80, 147); /* Adjust border size and style as needed */
+}
+h5{
+  color: navajowhite;
+
+}
+small{
+  color: white;
+}
+.product-container {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover {
+ 
+  transform: scale(1.1);
+
+
+}
+button:hover{
+  background-color: black;
+  color: azure;
+  transform: scale(1.1);
+}
+img{
+  /* height: 200px !important; */
+  border-radius: 50px ;
+  background-color: black;
+
+}
+button{
+  border-radius: 20px;
+  background-color: blueviolet;
+}

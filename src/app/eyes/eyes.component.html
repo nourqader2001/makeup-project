@@ -1,0 +1,33 @@
+<div style="background-color: black;">
+<div class="card bg-dark text-white">
+    <img src="assets/Eyes.avif" class="card-img" alt="...">
+    <div class="card-img-overlay" style="color: black;">  
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="container text-center" style="margin: auto;">
+    <div class="row">
+  <div class="card mt-3 col-lg-6" *ngFor="let card of cards">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{card.name}}</h5>
+          <p class="card-text">{{card.description}}</p>
+          <p class="card-text" style="color: palevioletred;">{{card.price}}</p>
+          <div><button type="button" style="background-color: brown;">Add to card</button></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-container">
+          <div class="image-container" (mouseover)="toggleMessage(true)" (mouseout)="toggleMessage(false)">
+            <img src="{{card.image}}" alt="Product Image">
+            <div *ngIf="showMessage" class="add-to-cart-message">Add to Cart</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+  </div>

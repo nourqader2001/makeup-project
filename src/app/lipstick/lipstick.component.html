@@ -1,0 +1,107 @@
+<div style="background-color: black;">
+    <div class="card bg-dark text-white">
+        <img src="assets/lipstickbackgroud.webp" class="card-img" alt="...">
+        <div class="card-img-overlay" style="color: black;">
+          <h5 class="card-title">EXPERIENCE IN MAYBELLINE</h5>
+          <pre class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. 
+    This content is a little bit longer.</pre>
+          
+        </div>
+      </div>
+      <div class="container text-center" >
+        <div class="row">
+      <div class="card mt-3 col-lg-6" *ngFor="let card of cards" >
+        <div class="row g-0">
+          <!-- <div class="col-md-4">
+            <img src="assets/sky.jpg" class="img-fluid rounded-start" alt="...">
+          </div> -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{card.name}}</h5>
+              <p class="card-text">{{card.description}}</p>
+              <p class="card-text" style="color: palevioletred;">{{card.price}} </p>
+              <div><button type="button" style="background-color: brown;">Add to card</button></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-container">
+              <div class="image-container" (mouseover)="toggleMessage(true)" (mouseout)="toggleMessage(false)">
+                <img src="{{card.image}}" alt="Product Image">
+                <!-- Message to add to cart -->
+                <!-- <div *ngIf="showMessage" class="add-to-cart-message">Add to Cart</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mt-3 col-lg-6" >
+        <div class="row g-0"> -->
+          <!-- <div class="col-md-4">
+            <img src="assets/sky.jpg" class="img-fluid rounded-start" alt="...">
+          </div> -->
+          <!-- <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Longwear lip liner pencil no 29</h5>
+              <p class="card-text">MAYBELLINE FIT ME MATTE+PORELESS foundation is made to fit the diverse Indian skin tones. This Fit Me Foundation is ideal for normal to oily skin and refines pores for a natural-looking.</p>
+              <p class="card-text" style="color:palevioletred;">{{ 285.00 | currency:'EGP':'symbol':'1.2-2' }}</p>
+              <div><button type="button" style="background-color: brown;">Add to card</button></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-container">
+            <div class="image-container" (mouseover)="toggleMessage(true)" (mouseout)="toggleMessage(false)">
+              <img src="assets/lipliner1.jpg" alt="Product Image"> -->
+              <!-- Message to add to cart -->
+              <!-- <div *ngIf="showMessage" class="add-to-cart-message">Add to Cart</div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div> -->
+      <!-- <div class="row">
+      
+        <div class="card mt-3 col-lg-6"  >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="product-container">
+                <div class="image-container" (mouseover)="toggleMessage(true)" (mouseout)="toggleMessage(false)">
+                  <img src="assets/gloss.avif" alt="Product Image">
+                  Message to add to cart -->
+                  <!-- <div *ngIf="showMessage" class="add-to-cart-message">Add to Cart</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Maybelline, Lifter Gloss </h5>
+                <p class="card-text"> Poreless Compact Powder is a 12-hour oil control powder foundation that blends into skin for an all-day mattifying look and feel.</p>
+                <p class="card-text" style="color: palevioletred;">{{ 464.64 | currency:'EGP':'symbol':'1.2-2' }}</p>
+                <div><button type="button" style="background-color: brown;">Add to card</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-3 col-lg-6" >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="product-container">
+                <div class="image-container" (mouseover)="toggleMessage(true)" (mouseout)="toggleMessage(false)">
+                  <img src="assets/lips.webp" alt="Product Image"> --> 
+                  <!-- Message to add to cart -->
+                  <!-- <div *ngIf="showMessage" class="add-to-cart-message">Add to Cart</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"> Maybelline Super Stay Matte </h5>
+                <p class="card-text"> Maybelline Instant Age Rewind Eraser Dark Circles Treatment Concealer, Light Honey, 6ml.</p>
+                <p class="card-text" style="color: palevioletred;">{{ 918.00 | currency:'EGP':'symbol':'1.2-2' }}</p>
+                <div><button type="button" style="background-color: brown;">Add to card</button></div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        </div> -->
+        

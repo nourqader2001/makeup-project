@@ -1,0 +1,58 @@
+.card-img{
+    height: 400px;
+
+}
+.card{
+    background-color: black;
+    color: white;
+}
+h5{
+    color: navajowhite;
+
+}
+small{
+    color: white;
+}
+.product-container {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .add-to-cart-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(199, 173, 173, 0.897); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    color: black;
+    font-size: 25px;
+    transition: opacity 0.5s ease;
+  }
+
+  
+  /* .image-container:hover .add-to-cart-message {
+    display: block;
+  } */
+  img:hover {
+
+    transform: scale(1.1);
+   
+  }
+  button:hover{
+    background-color: black;
+    color: azure;
+    transform: scale(1.1);
+  }

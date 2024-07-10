@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+      <div class=" col-md-12">
+          <div class="panel">
+              <div class="panel-heading">
+                  <div class="row">
+                      <div class="col-lg-12 col-sm-3 col-xs-12">
+                          <h4 class="title">Data <span>List</span></h4>
+                      </div>
+                      <div class="col-sm-9 col-xs-12 text-right">
+                          <div class="btn_group">
+                              <input type="text" class="form-control" placeholder="Search">
+                              <button class="btn btn-default" title="Reload"><i class="fa fa-sync-alt"></i></button>
+                              <button class="btn btn-default" title="Pdf"><i class="fa fa-file-pdf"></i></button>
+                              <button class="btn btn-default" title="Excel"><i class="fas fa-file-excel"></i></button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="panel-body table-responsive">
+                <table class="table">
+                  <thead>
+                      <tr>
+                          <th>ID</th>
+                          <th >Name</th>
+                          <th>Price</th>
+                          <th>Description</th>
+                          <th>Quantity</th>
+                          <th>Category ID</th>
+                          <th>Image</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr *ngFor="let prod of products">
+                          <td>{{ prod.id}}</td>
+                          <td>{{ prod.name }}</td>
+                          <td>{{ prod.price }}</td>
+                          <td>{{ prod.description }}</td>
+                          <td>{{ prod.quantity }}</td>
+                          <td>{{ prod.id_cate_product }}</td>
+                          <td><img src="{{prod.image}}" alt="Product Image" class="prod-image"></td>
+
+                      </tr>
+                  </tbody>
+              </table>
+              </div>
+            
+</div>
+

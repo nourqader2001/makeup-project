@@ -1,0 +1,26 @@
+/* .img-fluid{
+    height: 300px;
+    margin: auto;
+    width: 500px;
+} */
+img{
+    height: 500px;
+    border-radius: 50px ;
+    background-color: black;
+ 
+}
+.slide{
+    height: 500px;
+    
+}
+.card:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    
+}
+.card-img-top{
+    border-radius: 20%;
+    height: 400px;
+}
+
+

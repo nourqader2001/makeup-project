@@ -1,0 +1,34 @@
+.nav{
+    background-color: black;
+}
+footer{
+    background-color: black !important; 
+}
+a{
+    color: blanchedalmond;
+    transition: color 0.5s, opacity 0.5s, transform 0.5s, font-size 0.5s;
+
+}
+a:hover{
+    color: brown;
+    opacity: 0.5;
+    transform: scale(1.1);
+    font-size: 25px;
+
+    
+}
+.icon-text {
+    display: none; 
+  }
+  
+  .nav-link:hover .icon-text {
+    display: inline; 
+  }
+  .nav-item {
+    display: flex; /* Use flexbox layout */
+    align-items: left; /* Align items vertically */
+  }
+  
+  .nav-item .fa-solid {
+    margin-right: 5px; /* Add some space between the icon and text */
+  }
